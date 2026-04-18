@@ -3,46 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lund iGEM Project</title>
+    <title>Lund iGEM 2026</title>
+    <meta name="description" content="Lund iGEM 2026 – Engineering biology to solve real-world problems.">
+    
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- Navigation -->
     <nav class="navbar">
-        <div class="logo">🧬 Team Lund iGEM 2026</div>
+        <div class="logo">🧬 Lund iGEM 2026</div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="team.html">Team</a></li>
             <li><a href="project.html">Project</a></li>
             <li><a href="human-practices.html">Human Practices</a></li>
+            <li><a href="results.html">Results</a></li>
         </ul>
     </nav>
 
+    <!-- Hero Section -->
     <header class="hero-section">
-        <h1>Welcome to Lund's iGEM Wiki</h1>
-        <p>Engineering biology to solve real-world problems.</p>
+        <div class="hero-content">
+            <h1>Welcome to Lund iGEM 2026</h1>
+            <p>Engineering biology to solve real-world problems.</p>
+            <a href="project.html" class="cta-button">Explore Our Project</a>
+        </div>
     </header>
 
+    <!-- Main Content -->
     <main class="content-container">
+
+        <!-- Project Overview -->
         <section class="project-summary">
-            <h2>Project Abstract</h2>
-            <p>Team Lund is building a live cell therapeutic to treat PCOS hyperandrogenism.</p>
-            
-            <img src="lab.jpg" alt="Our team working in the lab" style="max-width: 100%; border-radius: 8px;">
+            <h2>Project Overview</h2>
+            <p>
+                We are developing a live-cell therapeutic aimed at addressing hyperandrogenism 
+                in PCOS. By combining synthetic biology with clinically relevant design, 
+                our goal is to create a safe, controllable, and effective treatment strategy.
+            </p>
+
+            <img 
+                src="lab.jpg" 
+                alt="Lund iGEM team working in the lab" 
+                class="responsive-image"
+            >
         </section>
 
-        <section class="achievements">
-            <h2>Our Goals</h2>
-            <ul>
-                <li>Design a robust genetic circuit.</li>
-                <li>Engage with local stakeholders.</li>
-                <li>Build a beautiful, informative wiki.</li>
-            </ul>
+        <!-- Highlights -->
+        <section class="highlights">
+            <h2>What We're Working On</h2>
+            <div class="card-container">
+
+                <div class="card">
+                    <h3>🧪 Genetic Circuit Design</h3>
+                    <p>Building a robust and controllable system for therapeutic function.</p>
+                </div>
+
+                <div class="card">
+                    <h3>🌍 Human Practices</h3>
+                    <p>Collaborating with stakeholders to ensure real-world relevance.</p>
+                </div>
+
+                <div class="card">
+                    <h3>💻 Wiki & Communication</h3>
+                    <p>Creating a clear, engaging, and accessible scientific story.</p>
+                </div>
+
+            </div>
         </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <h2>Learn More</h2>
+            <p>Explore our full project, meet the team, and follow our journey.</p>
+            <div class="cta-links">
+                <a href="project.html" class="cta-button">Project</a>
+                <a href="team.html" class="cta-button secondary">Team</a>
+            </div>
+        </section>
+
     </main>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Team Name. Licensed under CC BY 4.0.</p>
+        <p>&copy; 2026 Lund iGEM Team</p>
+        <p>Licensed under CC BY 4.0</p>
     </footer>
 
 </body>
