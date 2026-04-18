@@ -292,3 +292,23 @@ footer p {
         font-size: 2rem;
     }
 }
+/* --- TEAM CARDS --- */
+.team-card {
+    text-align: center;
+}
+
+.team-photo {
+    width: 100%;
+    max-width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.role {
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
